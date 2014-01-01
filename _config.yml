@@ -1,3 +1,19 @@
+<<<<<<< HEAD
 name: SPatrickApps
 markdown: redcarpet
 pygments: true
+=======
+title:            Mu-An Chiou - @muanchiou || @muan
+url:              http://muan.co
+permalink:        pretty
+pygments:         true
+markdown:         rdiscount
+rdiscount:
+  extensions:     [smart]
+google_analytics: UA-21332781-7
+timezone:         Europe/London
+paginate: 5
+links: 
+  - name:         About
+    url:          /about
+>>>>>>> updated
