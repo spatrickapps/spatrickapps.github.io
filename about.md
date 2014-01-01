@@ -1,24 +1,10 @@
 ---
-layout: post
-title: About 
+layout: page
+title: About
 ---
 
-**Mu-An Chiou** <small>(**邱慕安**)</small>. <br />
-[Design Superhero](https://github.com/blog/1568-mu-an-chiou-is-a-githubber) at [GitHub](https://github.com) and co-founder of [Zeczec](http://zeczec.com). 
+Give people something to read and get to know you. Here's my attempt: this is [Mu-An](http://muan.co), a designer developer who lives in London at the moment.
 
-Originally from Taipei, lived in the UK for 5 years, currently based nowhere.
+Tweet at [@muanchiou](http://twitter.com/muanchiou), read my code on [GitHub](http://github.com/muan), see my designs on [Dribbble](http://dribbble.com/muan), find my CV on [LinkedIn](http://uk.linkedin.com/in/muanchiou).
 
-<br />
-
-[GitHub](https://github.com/muan)
-
-[Twitter](https://twitter.com/muanchiou)
-
-[Dribbble](http://dribbble.com/muan)
-
-[Speakerdeck](http://speakerdeck.com/muan)
-
-[Blog feed](/feed.xml)
-
-
-<br />
+This theme is made by me. You have a nice day. ♥
