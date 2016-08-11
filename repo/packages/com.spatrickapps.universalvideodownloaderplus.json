@@ -1,0 +1,21 @@
+{
+	"name": "Universal Video Downloader Plus",
+	"package": "com.spatrickapps.universalvideodownloaderplus",
+	"author": "SPatrickApps",
+	"version": "1.5",
+	"description": "Download videos from almost any app!",
+	"changelog": {
+		"1.5": [
+			"Initial Release"
+		]
+	},
+	"screenshots": {
+		"UVD1.jpg": "",
+		"UVD2.jpg": "",
+		"UVD3.jpg": "",
+		"UVD4.jpg": ""
+	},
+	"links": {
+		"<span class=\"glyphicon glyphicon-heart\"></span> Developer's Twitter": "https://twitter.com/spatrickapps"
+	}
+}

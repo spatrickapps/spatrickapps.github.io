@@ -1,0 +1,9 @@
+Origin: SPatrickapps's Repo
+Label: SPatrickapps's Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: SPatrickapps's Repository Powered By boomerang
+ 
