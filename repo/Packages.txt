@@ -8,8 +8,8 @@ Maintainer: SPatrickApps <contact@spatrickapps.com>
 Author: SPatrickApps <contact@spatrickapps.com>
 Section: Tweaks
 Version: 1.5
-MD5sum: a42b110ad18e1cf1d7f2796b484f9432
-Size: 1289926
+MD5sum: 7d22cb7e56d62c47d67d46f9786b7ba1
+Size: 1285594
 Filename: debs/com.spatrickapps.universalvideodownloaderplus.deb
 Depiction: http://spatrickapps.com/repo/depictions/?p=com.spatrickapps.universalvideodownloaderplus
 
