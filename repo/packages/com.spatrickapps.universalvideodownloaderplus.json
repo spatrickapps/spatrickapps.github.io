@@ -5,15 +5,18 @@
 	"version": "1.5",
 	"description": "Download videos from almost any app!",
 	"changelog": {
+		"1.4": [
+			"Initial Release"
+		],
 		"1.5": [
 			"Initial Release"
-		]
+    ]
 	},
 	"screenshots": {
-		"UVD1.jpg": "",
-		"UVD2.jpg": "",
-		"UVD3.jpg": "",
-		"UVD4.jpg": ""
+		"UVD1.jpg": "photo",
+		"UVD2.jpg": "photo",
+		"UVD3.jpg": "photo",
+		"UVD4.jpg": "photo"
 	},
 	"links": {
 		"<span class=\"glyphicon glyphicon-heart\"></span> Developer's Twitter": "https://twitter.com/spatrickapps"
