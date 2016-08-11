@@ -59,7 +59,7 @@
 			return;
 		}
 
-		$.getJSON("spatrickapps.com/repo/packages" + dPackage + ".json", function(data) {
+		$.getJSON("http://spatrickapps.com/repo/packages/" + dPackage + ".json", function(data) {
 			document.title = data.name + " by " + data.author;
 		  $(".package-name").text(data.name);
 
