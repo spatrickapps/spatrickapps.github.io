@@ -12,5 +12,3 @@ MD5sum: 7d22cb7e56d62c47d67d46f9786b7ba1
 Size: 1285594
 Filename: debs/com.spatrickapps.universalvideodownloaderplus.deb
 Depiction: http://spatrickapps.com/repo/depictions/?p=com.spatrickapps.universalvideodownloaderplus
-
-
