@@ -5,20 +5,19 @@
 	"version": "1.5",
 	"description": "Download videos from almost any app!",
 	"changelog": {
-		"1.4": [
+		"1.0.0": [
 			"Initial Release"
 		],
-		"1.5": [
-			"Initial Release"
-    ]
+		"1.0.1": [
+			"Made patch similar to iOS 9 fix",
+			"Popup asking whether or not to mute a website's popups"
+		]
 	},
 	"screenshots": {
-		"UVD1.jpg": "photo",
-		"UVD2.jpg": "photo",
-		"UVD3.jpg": "photo",
-		"UVD4.jpg": "photo"
+		"uvd1.jpg": "Safari popup allowing the user to choose whether or not to mute a website",
+		"uvd2.jpg": "Popup in a 3rd party app (AlienBlue) doing the same thing"
 	},
 	"links": {
-		"<span class=\"glyphicon glyphicon-heart\"></span> Developer's Twitter": "https://twitter.com/spatrickapps"
+		"<span class=\"glyphicon glyphicon-heart\"></span> Developer's Twitter": "https://twitter.com/itsjake88"
 	}
 }
