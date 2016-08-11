@@ -26,28 +26,22 @@ else
 fi
 
 rm Packages.bz2
-rm Packages
+rm Packages.txt
 
 for deb in debs/*.deb
 do
 	echo "Processing $deb...";
-  dpkg-deb -f "$deb" >> Packages
-  md5sum "$deb" | echo "MD5sum: $(awk '{ print $1 }')" >> Packages
-  wc -c "$deb" | echo "Size: $(awk '{ print $1 }')" >> Packages
-  echo "Filename: $deb" >> Packages
-  dpkg-deb -f "$deb" Package | echo "Depiction: https://$(head -n 1 CNAME)/depictions/?p=$(xargs -0)" >> Packages
-  echo "" >> Packages
+  dpkg-deb -f "$deb" >> Packages.txt
+  md5sum "$deb" | echo "MD5sum: $(awk '{ print $1 }')" >> Packages.txt
+  wc -c "$deb" | echo "Size: $(awk '{ print $1 }')" >> Packages.txt
+  echo "Filename: $deb" >> Packages.txt
+  dpkg-deb -f "$deb" Package | echo "Depiction: https://$(head -n 1 CNAME)/depictions/?p=$(xargs -0)" >> Packages.txt
+  echo "" >> Packages.txt
 done
 
-echo "" >> Packages; ## Add extra new line
+echo "" >> Packages.txt; ## Add extra new line
 
-bzip2 < Packages > Packages.bz2
-gzip -9c < Packages > Packages.gz
+bzip2 < Packages.txt > Packages.bz2
+gzip -9c < Packages.txt > Packages.gz
 
-git add -A
-now=$(date +"%I:%M %m-%d-%Y")
-git commit -am "Packages Update - $now"
-git push
-
-echo "Updated Github repository with latest packages";
 cd "$cur"
