@@ -99,7 +99,8 @@
 		var myDir = myURL.substring( 0, myURL.lastIndexOf( "/" ) + 1);
 
 		if (!dPackage) {
-			$(".package-error").text("This package doesn't seem to exist!").css("display", "block");
+			//$(".package-error").text("This package doesn't seem to exist!").css("display", "block");
+			$(".package-error").text(document.URL).css("display", "block");
 			$(".package-info").css("display", "none");
 			$(".package-name").text("Not found");
 			return;
