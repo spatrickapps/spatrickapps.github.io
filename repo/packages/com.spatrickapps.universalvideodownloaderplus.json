@@ -2,7 +2,7 @@
 	"name": "Universal Video Downloader Plus",
 	"package": "com.spatrickapps.universalvideodownloaderplus",
 	"author": "SPatrickApps",
-	"version": "1.5",
+	"version": "1.5.1",
 	"description": "Download videos from almost any app!",
 	"changelog": {
 		"1.5": [
@@ -10,6 +10,9 @@
 		],
 		"1.5": [
 			"Initial Release"
+		],
+		"1.5.1": [
+			"Fixed bug where you couldn't disable any applications"
 		]
 	},
 	"screenshots": {
@@ -19,8 +22,7 @@
 		"UVD4.jpg": ""
 	},
 	"links": {
-		"<span class=\"glyphicon glyphicon-heart\"></span>Repository Developer's Twitter": "https://twitter.com/itsjake88",
-		"<span class=\"glyphicon glyphicon-heart\"></span>Repository Developer's Twitter": "https://twitter.com/spatrickapps"
+		"<span class=\"glyphicon glyphicon-heart\"></span>Repository Developer's Twitter": "https://twitter.com/itsjake88"
 
 	}
 }
